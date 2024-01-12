@@ -1,0 +1,44 @@
+body{background-color:#EDF2F8;}
+}
+
+.dj{display: flex;
+flex-direction: column;
+gap: 10px;}
+
+.container{
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    margin: 40px;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+}
+img{border-radius: 50%;
+    
+}
+.jonathan{
+    width 100px;
+    background-color:white;
+    border-radius: 10px;
+    border: 5px;
+    text-align: center;
+    
+    }
+
+
+
+    .Daniel{background-color: #733FC8;
+    }
+    .Patrick{background-color:#18202D ;}
+    h3,p,h6{color: white;}
+
+    .Jeanette{background-color: #49556B;
+    padding-bottom: ;}
+    h5,p5,h4{color: black;}
+
+    .kira,.Jonathan{background-color: white;}
+.kira{padding-bottom: 395px;}
