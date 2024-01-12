@@ -1,44 +1,115 @@
-body{background-color:#EDF2F8;}
+body{background-color: #EDF2F8;
+    margin: 100px;
 }
 
-.dj{display: flex;
-flex-direction: column;
-gap: 10px;}
+h1,h2{style:font-size:medium;}
+.daniel{
+    width: 300px;
+}
 
-.container{
-    background-color: ;
-    display: flex;
+
+#kiraparagraph{font-size: 20px;}
+
+.Jeanetteparagraph{color: black;
+text-align: center;}
+
+
+
+#patoparagraph,#jonathanparagraph,#danielparagraph{text-align: center;}
+
+.about{display: flex;
     flex-direction: row;
-    border: 10px;
-    margin: 40px;
-    border-radius: 5%;
-    align-items: center;
+gap: 30px;}
+
+    .imgcentre{}
+.main{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
     justify-content: center;
-    gap: 70px;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.kira{
+    background-color: white;
+    text-align:center;
+    border: 0;
+    border-radius:10px ;
+height: 460px;
+
 
 }
-img{border-radius: 50%;
+
+.firstbox{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    align-content: center;
+}
+.sec1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: px;
+    column-gap: 1rem;
     
 }
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height:px;
+    column-gap: 1rem;
+}
+.secondbox{
+    display: grid;
+    column-gap: 1rem;
+    height: 460px;
+}
+.daniel{width: 600px;
+    background-color: blueviolet;
+    text-align: justify;
+    color: white;
+    border: 0;
+    border-radius:10px ;
+    text color:;
+}
+
+#hamon{color: black;}
+
 .jonathan{
-    width 100px;
-    background-color:white;
-    border-radius: 10px;
-    border: 5px;
-    text-align: center;
+    color: white;
+    background-color: #49556B;
+    text-align: justify;
+    border: 0;
+    border-radius:10px ;
+}
+.Jeanette{color: white;
+    background-color: white;
+    text-align: justify;
+    border: 0;
+    border-radius:10px ;
+}
+.patricmain{color: white;
+    background-color: #191F2D;
+    text-align: justify;
+    border: 0;
+    border-radius:10px ;
+}
+
+img{
+    width :50px;
+    border: 0;
+    border-radius: 100%;
+
+}
+
+
+.attribution {
+      font-size: 11px;
+      text-align: center;
     
-    }
+}
 
-
-
-    .Daniel{background-color: #733FC8;
-    }
-    .Patrick{background-color:#18202D ;}
-    h3,p,h6{color: white;}
-
-    .Jeanette{background-color: #49556B;
-    padding-bottom: ;}
-    h5,p5,h4{color: black;}
-
-    .kira,.Jonathan{background-color: white;}
-.kira{padding-bottom: 395px;}
+.attribution a {
+      color: hsl(228, 45%, 44%);
+    
+}
